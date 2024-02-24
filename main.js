@@ -2,10 +2,10 @@ let art;
 let seeArtDetails;
 
 const _getArtDetails = async () => {
-    const result = await fetch(`https://api.artic.edu/api/v1/artworks/`, {
+    const result = await fetch(`https://api.artic.edu/api/v1/artworks/${id}`, {
         method : 'POST',
         headers : {
-            'Content-Type': 'application/x-www-form-urlencoded',
+            'Content-Type': 'application/json',
         }
     });
 
@@ -25,7 +25,7 @@ async function clickedEvent(img_index, item_index) {
         ['Accept', 'application/json']
     ]);
 
-    let request = new Request(`https://api.artic.edu/api/v1/artworks/${picture}`, {
+    let request = new Request(`https://api.artic.edu/api/v1/artworks/${id}`, {
         method : 'GET',
         headers : headers
     });
