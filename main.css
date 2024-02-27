@@ -1,4 +1,4 @@
-*, *::after, *::before{
+/* *, *::after, *::before{
     margin: 0;
     padding: 0;
     box-sizing: inherit;
@@ -34,7 +34,7 @@ button:hover {
     border: 4px solid gray;
     padding: 10px;
     border-radius: 3px;
-}
+} */
 
 /* Styles for poster */
 .container{
@@ -57,7 +57,7 @@ img{
     padding-top: 20px;
 }
 
-.gallery__img{
+/* .gallery__img{
     width: 100%;
     height: 100%;
     max-height: 100%;
@@ -138,4 +138,4 @@ img{
     margin-top: 3%;
     padding: 10px;
 }
-
+ */
